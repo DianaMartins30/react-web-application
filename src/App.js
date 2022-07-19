@@ -36,14 +36,14 @@ function App() {
   return (
     <div className="App">
       <div className=" max-w-5xl my-5 mx-auto p-4">
-        <p class="text-my-dark-purple text-6xl font-bold my-12">
+        <p className="text-my-dark-purple text-6xl font-bold my-12">
           check the weather{" "}
         </p>
-        <Search class="m-4" onSearchChange={handlerOnSearchChange} />
-        <div class="flex flex-col md:flex-row md:justify-between md:space-x-4">
-          <div class="md:grow">
+        <Search className="m-4" onSearchChange={handlerOnSearchChange} />
+        <div className="flex flex-col md:flex-row md:justify-between md:space-x-4">
+          <div className="md:grow">
             {currentWeather && (
-              <p class="text-my-dark-purple text-6xl font-bold my-8 mb-16">
+              <p className="text-my-dark-purple text-6xl font-bold my-8 mb-16">
                 today
               </p>
             )}
@@ -53,7 +53,7 @@ function App() {
           </div>
           <div>
             {forecast && (
-              <p class="text-my-dark-purple text-6xl font-bold my-8 mb-16">
+              <p className="text-my-dark-purple text-6xl font-bold my-8 mb-16">
                 next-week
               </p>
             )}
