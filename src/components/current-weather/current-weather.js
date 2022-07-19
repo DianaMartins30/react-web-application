@@ -18,7 +18,7 @@ const CurrentWeather = ({ data }) => {
             </div>
             <div>
               <h2 className="text-my-purple text-3xl font-bold">
-                {Math.round(data.main.temp)}ºC
+                {Math.round(data.main.temp)}ºC 
               </h2>
             </div>
           </div>
